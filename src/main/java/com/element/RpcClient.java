@@ -19,8 +19,8 @@ public class RpcClient {
             System.out.println("res is " + res);
 
             // get name
-            System.out.println("get name: " + proxy.getName("1234"));
-            System.out.println("get name: " + proxy.getName("G20200579010175"));
+            System.out.println("get name: " + proxy.findName(123));
+            System.out.println("get name: " + proxy.findName(9527));
 
 
         } catch (IOException e) {

@@ -31,8 +31,8 @@ public class RpcServer implements RpcInterface {
     }
 
     @Override
-    public String getName(String number) {
-        if (number.equals("G20200579010175")) {
+    public String findName(int studentId) {
+        if (studentId == 9527) {
             return "bradelement";
         }
         return null;

@@ -7,5 +7,5 @@ public interface RpcInterface extends VersionedProtocol {
     int add(int n1, int n2);
 
     // homework
-    String getName(String number);
+    String findName(int studentId);
 }
